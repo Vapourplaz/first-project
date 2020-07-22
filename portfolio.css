@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* HERO SECTION */
+
+#hero{
+    padding: 80px 100px ;
+    height: 600px;
+    background: 
+    linear-gradient(rgba(90, 90, 90, 0.4), rgba(90, 90, 90, 0.4)
+    ),
+    url(./img/bg.png);
+    color: #FFFAF2;
+    background-size: cover;
+}
+#navbar li{
+    font-size: large;
+    list-style-type: none; 
+    display: inline;
+    margin-right: 50px;
+}
+#navbar li:first-of-type{
+    margin-right: 600px;
+}
+
+.lead{
+    margin-top: 150px;
+}
+
+.lead__description {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.lead__tittle{
+    font-size: 70px;
+}
+
+.navbar__link{
+    font-weight: bold;
+}
+.lead__link{
+    color: #FFFAF2
+    ;
+}
+
+#navbar li a {color: #FFFAF2;
+    text-decoration: none;
+}
+
+/* ABOUT SECTION */
+
+#about,#skills,#Portfolio{
+   padding: 80px 100px; 
+}
+.about__title{
+    margin-bottom: 10px;
+}
+#secpara{
+    margin-top: 20px;
+}
+
+/* SKILLS SECTON */
+
+#skills{
+    background-color: #f0ebe4;
+}
+.skills__title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pic{
+    margin-right: 30px;
+}
+#profile{
+    display: flex;
+}
+.profile__skills-list__profile,
+.profile__skills-list__skill{
+    display: flex;
+    margin-bottom: 33px;
+}
+.profile__skills-list__profile h4,
+.profile__skills-list__skill h4{
+    width: 150px;
+}
+
+progress{
+    border-radius: 2px;
+    width: 60%;
+    height: 22px;
+}
+
+progress::-webkit-progress-bar{
+    border-radius: 2px;
+    background-color: #f5d6ab;
+}
+
+progress::-webkit-progress-value{
+    border-radius: 2px;
+    background-color: #c66c49;
+}
+
+/* Portfolio */
+
+#portfolio__title{
+    margin: 50px 0;
+}
+.portfolio__details__column__two{
+    display: flex;
+}
+.Portfolio__details__text{
+    flex: 1;
+    margin-right: 20px;
+    font-weight: normal;
+}
+.portfolio__details__gallery{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+}
+.images{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Get in touch */
+
+#Get__in__touch{
+    padding: 80px 100px;
+}
+.three__colums{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   display: flex; 
+}
+.colum__one{
+    flex: 1;
+}
+.colum__two{
+    flex: 1;
+    display: flex;
+}
+.colum__three{
+    flex: 1;
+    display: flex;
+}
